@@ -30,7 +30,7 @@
 .login-signup{
   color: white;
   font-family: 'Oswald', sans-serif;
-  margin-left: 15rem;
+  margin-left: 18rem;
 }
 .login-signup h5{
   margin-left: 39rem;
@@ -70,7 +70,7 @@
   padding: 0;
   display: flex;
   margin-top: -3rem;
-  margin-left: 38rem;
+  margin-left: 42rem;
   font-size: 13px;
 }
 #menu ul{
@@ -125,6 +125,7 @@
   margin-left: 15rem;
   font-family: 'Ubuntu', sans-serif;
   color: #D0D0D0;
+  font-size: 12px;
 }
 #home-tab:hover{
   color: #9A9A9A;
@@ -146,17 +147,19 @@
   word-wrap: break-word;
   margin-left: 15rem;
   margin-top: -1.5rem;
-  width: 50%;
+  width: 49rem;
   font-family: 'Ubuntu', sans-serif;
 
 }
 .contact-info h1{
   color: #E87437;
   cursor: default;
+  font-size: 20px;
 }
 
 .contact-info p{
   cursor: default;
+  font-size: 12px;
 }
 
 /***************************************************************************/
@@ -165,11 +168,13 @@
   font-family: 'Ubuntu', sans-serif;
   color: #EF6423;
   margin-left: 14.9rem;
-  font-size: 1.67rem;
+  font-size: 1.2rem;
 }
 #hr-line{
   margin: 0;
-  width: 100%;
+  margin-left: 15rem;
+  margin-top: -0.85rem;
+  width: 28%;
   height: 5px;
   background-color: #545454;
 }
