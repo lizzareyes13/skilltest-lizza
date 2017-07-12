@@ -290,6 +290,7 @@
   padding: none;
   width: 130px;
   margin-left: 3.3rem;
+  margin-top: 2.7rem;
 }
 #facebook{
   margin: 0 auto;
@@ -297,8 +298,16 @@
   width: 1.75rem;
   height: 1.75rem;
 }
+#facebook img{
+  margin: 0;
+  width: 27px;
+  margin-top: 0px;
+  margin-left: 1.5px;
+  filter: invert();
+}
 #facebook:hover{
   background-color: #373737;
+  cursor: pointer;
 }
 #twitter{
   margin: 0 auto;
@@ -306,8 +315,16 @@
   width: 1.75rem;
   height: 1.75rem;
 }
+#twitter img{
+  margin: 0;
+  width: 21.5px;
+  margin-top: 3px;
+  margin-left: 2.5px;
+  filter: invert();
+}
 #twitter:hover{
   background-color: #373737;
+  cursor: pointer;
 }
 #linkedin{
   margin: 0 auto;
@@ -315,8 +332,16 @@
   width: 1.75rem;
   height: 1.75rem;
 }
+#linkedin img{
+  margin: 0;
+  width: 25px;
+  margin-bottom: 2px;
+  margin-left: 2.5px;
+  filter: invert();
+}
 #linkedin:hover{
   background-color: #373737;
+  cursor: pointer;
 }
 #pinterest{
   margin: 0 auto;
@@ -324,6 +349,14 @@
   width: 1.75rem;
   height: 1.75rem;
 }
+#pinterest img{
+  margin: 0;
+  width: 20px;
+  margin-top: 3px;
+  margin-left: 2.5px;
+  filter: invert();
+}
 #pinterest:hover{
   background-color: #373737;
+  cursor: pointer;
 }
