@@ -5,7 +5,7 @@
   margin: 0 auto;
   margin-left: -.5rem;
   margin-top: -1.15rem;
-  height: 3rem;
+  height: 2.5rem;
   background-color: #f96408;
 }
 
@@ -15,15 +15,16 @@
   font-family: 'Oswald', sans-serif;
   margin-left: 15rem;
 }
-.call-now h3{
+.call-now h5{
   position: absolute;
   color: #C93500;
-  margin-top: 10px;
+  margin-top: 8px;
+  font-size: 1rem;
 }
 .call-now p{
-  margin-left: 6.75rem;
-  padding-top: 10.25px;
-  font-size: 18px;
+  margin-left: 5.75rem;
+  padding-top: 8px;
+  font-size: 15px;
 }
 
 .login-signup{
@@ -31,20 +32,21 @@
   font-family: 'Oswald', sans-serif;
   margin-left: 15rem;
 }
-.login-signup h3{
-  margin-left: 36rem;
+.login-signup h5{
+  margin-left: 34rem;
   position: absolute;
   color: #C93500;
   margin-top: 0;
+  font-size: 1rem;
 }
 .login-signup p{
-  padding-left: 33rem;
+  padding-left: 30rem;
   margin-left: 6.75rem;
-  font-size: 18px;
-  margin-top: -2.8rem;
+  font-size: 15px;
+  margin-top: -2.25rem;
 }
 
-/*top*/
+/*grey bar*/
 .grey-logo-bar{
   width: 80rem;
   margin: 0 auto;
@@ -52,4 +54,42 @@
   margin-top: -8px;
   height: 7.5rem;
   background-color: #f8f7f8;
+}
+.grey-logo-bar img{
+  margin-left: 13.95rem;
+  margin-top: 2.5rem;
+}
+
+#menu{
+  margin: 0;
+  padding: 0;
+}
+#menu ul{
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+#menu li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+#menu ul li a{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  display: block;
+  color: #000;
+}
+#menu ul ul{
+  position: absolute;
+  visibility: hidden;
+  top: 30px;
+}
+#menu ul li:hover ul{
+  visibility: visible;
 }
