@@ -1,6 +1,55 @@
+/*nav bar*/
 .nav-bar{
-  max-width: 100%;
+  position: relative;
+  width: 80rem;
   margin: 0 auto;
-  height: 2rem;
+  margin-left: -.5rem;
+  margin-top: -1.15rem;
+  height: 3rem;
   background-color: #f96408;
+}
+
+.call-now{
+  position: relative;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 15rem;
+}
+.call-now h3{
+  position: absolute;
+  color: #C93500;
+  margin-top: 10px;
+}
+.call-now p{
+  margin-left: 6.75rem;
+  padding-top: 10.25px;
+  font-size: 18px;
+}
+
+.login-signup{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 15rem;
+}
+.login-signup h3{
+  margin-left: 36rem;
+  position: absolute;
+  color: #C93500;
+  margin-top: 0;
+}
+.login-signup p{
+  padding-left: 33rem;
+  margin-left: 6.75rem;
+  font-size: 18px;
+  margin-top: -2.8rem;
+}
+
+/*top*/
+.grey-logo-bar{
+  width: 80rem;
+  margin: 0 auto;
+  margin-left: -.5rem;
+  margin-top: -8px;
+  height: 7.5rem;
+  background-color: #f8f7f8;
 }
