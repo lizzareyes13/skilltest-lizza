@@ -125,7 +125,7 @@
   margin-left: 15rem;
   font-family: 'Ubuntu', sans-serif;
   color: #D0D0D0;
-  font-size: 12px;
+  font-size: 14px;
 }
 #home-tab:hover{
   color: #9A9A9A;
@@ -164,7 +164,7 @@
 
 /***************************************************************************/
 
-.contact-form p{
+.contact-us p{
   font-family: 'Ubuntu', sans-serif;
   color: #EF6423;
   margin-left: 14.9rem;
@@ -174,7 +174,56 @@
   margin: 0;
   margin-left: 15rem;
   margin-top: -0.85rem;
-  width: 28%;
+  width: 25rem;
+  height: 5px;
+  background-color: #545454;
+}
+.form-field{
+  margin-top: 1rem;
+  margin-left: 15.75rem;
+}
+
+#name-input input{
+  background-color: #f8f7f8;
+  width: 20.5rem;
+}
+
+#phone-email-input{
+  margin-top: 5px;
+}
+#phone-input{
+  background-color: #f8f7f8;
+}
+#email-input{
+  width: 158px;
+  background-color: #f8f7f8;
+}
+
+#message-input input{
+  width: 20.5rem;
+  height: 5rem;
+  margin-top: 5px;
+  background-color: #f8f7f8;
+  text-align: justify;
+}
+.reach-us p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #EF6423;
+  margin-left: 3.5rem;
+  font-size: 1.2rem;
+}
+
+/*CONTACT-BOX*/
+
+.contact-box{
+  margin: 0 auto;
+  display: flex;
+}
+#hr-line2{
+  margin: 0;
+  margin-left: 3.5rem;
+  margin-top: -0.85rem;
+  width: 25rem;
   height: 5px;
   background-color: #545454;
 }
